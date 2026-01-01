@@ -29,4 +29,4 @@ def make_model(train_ds, val_ds):
     model.save("models/speech_cnn.keras")
     return history, model
 
-    #Accuracy: 0.6324
+    #accuracy: ~63%

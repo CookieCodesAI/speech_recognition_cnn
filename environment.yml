@@ -1,0 +1,13 @@
+name: speech-cnn
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - tensorflow
+      - tensorflow-datasets
+      - numpy
+      - sounddevice
+      - matplotlib
+      - scikit-learn

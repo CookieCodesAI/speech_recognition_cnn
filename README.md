@@ -18,3 +18,5 @@ conda env create -f environment.yml
 conda activate speech-cnn
 ```
 ### 4. Run train.py or use the presaved model 
+## Note
+#### **model.py** was the *original* CNN architecture, **model2.py** is the *final* CNN architecture. For ***best*** results, use **model2.py**.
